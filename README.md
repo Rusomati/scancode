@@ -11,21 +11,16 @@ eg:
 ``scancode c malloc``
 opens every file that ends in .c in every subfolder then outputs the line including the keyword (if any)
 
-
 wow my explanation sucks
 
 
 example output:
 ``in main.c:``
 
-
 ``62 malloc(blablabla);//i forgot how to use malloc``
-
 
 ``84 malloc(asdfg);``
 
-
 ``in temp/loadimage.c:``
-
 
 ``112 malloc(wowowowowow);``
