@@ -1,5 +1,5 @@
 # scancode
-a tool to search for keywords in codebases
+a tool to search for keywords in codebases..
 expected to run on any unix system that uses the gnu userland
 # installation
 note: 
@@ -10,10 +10,22 @@ this code is not tested because i am too lazy
 eg:
 ``scancode c malloc``
 opens every file that ends in .c in every subfolder then outputs the line including the keyword (if any)
+
+
 wow my explanation sucks
+
+
 example output:
 ``in main.c:``
+
+
 ``62 malloc(blablabla);//i forgot how to use malloc``
-``84 malloc(asdfg);
+
+
+``84 malloc(asdfg);``
+
+
 ``in temp/loadimage.c:``
+
+
 ``112 malloc(wowowowowow);``
