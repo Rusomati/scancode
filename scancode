@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ -z $2 ]; then 
-	echo -e "scancode: a simple tool to scan codebases to find variables or functions based on their name\nusage:\nscancode [file extension] [function name/variable name]"
+	echo -e "scancode: a simple tool to scan codebases to find variables or functions based on their name\nusage:\nscancode [file extension(dont put a dot)] [function name/variable name]"
 else
-	for i in `find * -name *.$1`;do if [ -z "$(cat $i|grep $2)" ];then echo -n "";else echo "in $i:";cat -n $i|grep $2;fi;done|less
+	for i in `find ./ -ipath *.$1`;do if [ -z "$(cat $i|grep $2)" ];then echo -n "";else echo "in $i:";cat -n $i|grep $2;fi;done|less
 fi
