@@ -1,6 +1,9 @@
 # scancode
 a tool to search for keywords in codebases..
 expected to run on any unix system that uses the gnu userland and bash
+# note
+the program scans the working directory as i am too lazy to
+add the directory-to-scan as an argument
 # installation
 note: 
 this code is not tested because i am too lazy
