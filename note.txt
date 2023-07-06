@@ -1,0 +1,14 @@
+//you are not supposed to read this
+//better than nothing
+create new repo
+git init
+echo "blablabla">>README.md
+git add .
+git commmit -m "first commit"
+git blablabla origin git@github.com:Rusomati/reponame
+git push -u origin main
+//wtf^^^^^^^^^^^^^
+//loop:
+git commit -m "comment"
+git push -u origin main
+//------not finalized..barely wokring(if at all)-----
